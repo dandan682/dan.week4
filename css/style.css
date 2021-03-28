@@ -1,0 +1,161 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+
+img {
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+li {
+    padding-left: 2.5rem;
+    list-style-type: none;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+p{
+    text-align: justify;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+hr {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.logo {
+    width: 30%;
+    height: auto;
+}
+
+.nav-ul {
+    display: flex;
+    color:black;
+    width: 100%;
+    font-size: 18px;
+    justify-content: flex-end;
+    padding: 4.5rem 1rem 0 0;
+}
+
+.nav-ul a:hover { 
+    color:cornflowerblue;
+}
+
+.hamburger {
+    display: none;
+}
+
+.sec-container {
+    display: flex;
+    flex-flow: column wrap;
+    margin: 0% 10% 0 8%;
+    }
+
+.card-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 2% 10% 2% 8%;
+}
+
+.card {
+    width: 12rem;
+    height: 30%;
+    box-shadow: 5px 5px 20px rgb(197, 195, 195);
+    margin: 2%;
+    text-align: center;
+    }
+
+.desc {
+    padding: 1rem;
+    font-size: 14px;
+    font-weight: 100;
+    text-align: justify;
+}
+
+.link {
+    font-size: 15px;
+    font-weight: 100;
+    color: #ef744b;
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    background-color: rgb(21, 153, 21);
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+footer ul, footer li{
+    padding: 0;
+}
+
+footer img{
+    width: 1rem;
+    justify-content: center;
+
+}
+
+@media (max-width: 1000px){
+    .nav-ul {
+        flex-flow: column wrap;
+        padding: 0.5rem 1.2rem;
+        font-size: 90%;
+        text-align: right;
+    }
+}
+
+@media (max-width: 600px){
+    .nav-ul {
+        display: none;
+    }
+    .hamburger {
+        display: block;
+        border: 0;
+        background: transparent;
+        color:black;
+        font-size: 2rem;
+        padding-bottom: 1.5rem;
+        margin-left: 60%;
+        align-self: flex-end;
+    }
+    h2 {
+        font-size: 200%;
+    }
+}
+
+@media (max-width: 440px){
+    .hamburger {
+        display: none;
+    }
+    .logo {
+        width: 100%;
+    }
+    h2 {
+        font-size: 130%;
+    }
+}
+
+@media (max-width: 250px){
+    h2 {
+        font-size: 90%;
+    }
+    h3, p, .desc, .link {
+        font-size: 85%;
+    }
+}
