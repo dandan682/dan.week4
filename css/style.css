@@ -107,7 +107,6 @@ footer ul, footer li{
 
 footer img{
     width: 1.3rem;
-    justify-content: center;
 }
 
 @media (max-width: 1000px){
@@ -151,10 +150,10 @@ footer img{
 }
 
 @media (max-width: 250px){
-    h2 {
-        font-size: 90%;
+    h2, h3, p, .desc, .link {
+        font-size: 96%;
     }
-    h3, p, .desc, .link {
-        font-size: 85%;
+    footer p {
+        font-size: 70%;
     }
 }
