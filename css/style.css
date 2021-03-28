@@ -132,10 +132,12 @@ footer img{
         border: 0;
         background: transparent;
         color:black;
-        font-size: 2rem;
-        padding-bottom: 1.5rem;
-        margin-left: 60%;
-        align-self: flex-end;
+        font-size: 1.7rem;
+        width: 100%;
+        margin-bottom: 4.5%;
+        padding: 0.5rem;
+        text-align: right;
+        align-items: flex-end;
     }
     h2 {
         font-size: 200%;
