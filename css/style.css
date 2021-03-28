@@ -57,6 +57,11 @@ hr {
     display: none;
 }
 
+.banner {
+    width: 100%;
+    height: auto;
+}
+
 .sec-container {
     display: flex;
     flex-flow: column wrap;
