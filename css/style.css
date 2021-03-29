@@ -3,6 +3,7 @@ html {
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
+    color:black;
 }
 
 img {
@@ -11,19 +12,9 @@ img {
 
 nav {
     display: flex;
-    align-items: center;
 }
 
-li {
-    padding-left: 2.5rem;
-    list-style-type: none;
-}
-
-h2 {
-    font-size: 1.3rem;
-}
-
-h3 {
+h2, h3 {
     font-size: 1.2rem;
 }
 
@@ -34,6 +25,10 @@ p {
 a {
     text-decoration: none;
     color: black;
+}
+
+li {
+    list-style-type: none;
 }
 
 .logo {
@@ -52,7 +47,7 @@ a {
     display: none;
 }
 
-.sec-container {
+.section-container {
     display: flex;
     flex-flow: column wrap;
     margin: 4% 10% 4% 10%;
@@ -111,17 +106,19 @@ footer p, footer ul, footer li{
     h2 {
         font-size: 3.2rem;
     }
+
     .logo {
         width: 30%;
     }
+    
     .nav-ul {
         display: none;
     }
+
     .hamburger {
         display: block;
         border: 0;
         background: transparent;
-        color:black;
         font-size: 1.7rem;
         width: 100%;
         margin-bottom: 4.5%;
@@ -129,6 +126,7 @@ footer p, footer ul, footer li{
         text-align: right;
         align-items: flex-end;
     }
+
     .card {
         width: 12rem;
     }
@@ -139,18 +137,24 @@ footer p, footer ul, footer li{
         display: flex;
         flex-flow: column;
         text-align: right;
-        color:black;
         width: 100%;
         padding: 0.5rem 1.2rem;
     }
+
     .hamburger {
         display: none;
     }
+
     .logo {
         width: 35%;
     }
+
     p {
         font-size: 1.2rem;
+    }
+
+    li {
+        padding-left: 2.5rem;
     }
 }
 
@@ -159,6 +163,6 @@ footer p, footer ul, footer li{
         flex-flow: row;
         font-size: 1.2rem;
         justify-content: flex-end;
-        padding: 3.2rem 1rem 0 0;
+        padding: 5.1rem 1rem 0 0;
     }
 }
