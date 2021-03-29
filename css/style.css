@@ -124,7 +124,7 @@ footer p, footer ul, footer li{
     }
 }
 
-@media (min-width: 1022px){
+@media (min-width: 1024px){
     .nav-ul {
         flex-flow: row;
         font-size: 1.2rem;
