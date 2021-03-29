@@ -1,6 +1,8 @@
-body {
+html {
     font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
     margin: 0px;
+    padding: 0px;
 }
 
 img {
@@ -18,10 +20,14 @@ li {
 }
 
 h2 {
-    font-size: 50px;
+    font-size: 1.3rem;
 }
 
-p{
+h3 {
+    font-size: 1.2rem;
+}
+
+p {
     text-align: justify;
 }
 
@@ -30,23 +36,12 @@ a {
     color: black;
 }
 
-hr {
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
-}
-
 .logo {
-    width: 30%;
-    height: auto;
+    width: 100%;
 }
 
 .nav-ul {
-    display: flex;
-    color:black;
-    width: 100%;
-    font-size: 18px;
-    justify-content: flex-end;
-    padding: 4.5rem 1rem 0 0;
+    display: none;
 }
 
 .nav-ul a:hover { 
@@ -57,27 +52,22 @@ hr {
     display: none;
 }
 
-.banner {
-    width: 100%;
-    height: auto;
-}
-
 .sec-container {
     display: flex;
     flex-flow: column wrap;
-    margin: 0% 10% 0 8%;
+    margin: 4% 10% 4% 10%;
     }
 
 .card-container {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    margin: 2% 10% 2% 8%;
+    margin: 1% 8% 1% 8%;
 }
 
 .card {
-    width: 12rem;
-    height: 30%;
+    width: 18rem;
+    height: auto;
     box-shadow: 5px 5px 20px rgb(197, 195, 195);
     margin: 2% 2% 7% 2%;
     text-align: center;
@@ -85,16 +75,9 @@ hr {
 
 .desc {
     padding: 1rem;
-    font-size: 15px;
+    font-size: 1rem;
     font-weight: 100;
     text-align: justify;
-}
-
-.link {
-    font-size: 15px;
-    font-weight: 100;
-    color: #ef744b;
-    text-align: center;
 }
 
 footer {
@@ -106,24 +89,31 @@ footer {
     margin-top: 1rem;
 }
 
-footer ul, footer li{
-    padding: 0 0 0.5rem;
-}
-
 footer img{
     width: 1.3rem;
 }
 
-@media (max-width: 1000px){
-    .nav-ul {
-        flex-flow: column wrap;
-        padding: 0.5rem 1.2rem;
-        font-size: 90%;
-        text-align: right;
+footer p, footer ul, footer li{    
+    padding: 0.1rem;
+    margin:  0.1rem;
+}
+
+@media (max-width: 350px){
+    h2, h3, p, .desc, .link {
+        font-size: 0.8rem;
+    }
+    footer p {
+        font-size: 0.6rem ;
     }
 }
 
-@media (max-width: 600px){
+@media (min-width: 600px){
+    h2 {
+        font-size: 3.2rem;
+    }
+    .logo {
+        width: 30%;
+    }
     .nav-ul {
         display: none;
     }
@@ -139,28 +129,33 @@ footer img{
         text-align: right;
         align-items: flex-end;
     }
-    h2 {
-        font-size: 200%;
+    .card {
+        width: 12rem;
+    }
+    .desc {
+        font-size: 0.8rem;
     }
 }
 
-@media (max-width: 440px){
+@media (min-width: 768px){
+    .nav-ul {
+        display: flex;
+        flex-flow: column;
+        text-align: right;
+        color:black;
+        width: 100%;
+        padding: 0.5rem 1.2rem;
+    }
     .hamburger {
         display: none;
     }
-    .logo {
-        width: 100%;
-    }
-    h2 {
-        font-size: 130%;
-    }
 }
 
-@media (max-width: 250px){
-    h2, h3, p, .desc, .link {
-        font-size: 96%;
-    }
-    footer p {
-        font-size: 70%;
+@media (min-width: 1000px){
+    .nav-ul {
+        flex-flow: row;
+        font-size: 1.2rem;
+        justify-content: flex-end;
+        padding: 4.5rem 1rem 0 0;
     }
 }
