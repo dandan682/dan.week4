@@ -111,6 +111,10 @@ footer p, footer ul, footer li{
         width: 35%;
     }
 
+    .card{
+        width: 12rem;
+    }
+
     p {
         font-size: 1.2rem;
     }
