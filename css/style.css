@@ -149,6 +149,9 @@ footer p, footer ul, footer li{
     .hamburger {
         display: none;
     }
+    p {
+        font-size: 1.2rem;
+    }
 }
 
 @media (min-width: 1000px){
@@ -156,9 +159,6 @@ footer p, footer ul, footer li{
         flex-flow: row;
         font-size: 1.2rem;
         justify-content: flex-end;
-        padding: 4.5rem 1rem 0 0;
-    }
-    p {
-        font-size: 1.2rem;
+        padding: 3.2rem 1rem 0 0;
     }
 }
