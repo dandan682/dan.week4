@@ -132,9 +132,6 @@ footer p, footer ul, footer li{
     .card {
         width: 12rem;
     }
-    .desc {
-        font-size: 0.8rem;
-    }
 }
 
 @media (min-width: 768px){
@@ -149,12 +146,15 @@ footer p, footer ul, footer li{
     .hamburger {
         display: none;
     }
+    .logo {
+        width: 35%;
+    }
     p {
         font-size: 1.2rem;
     }
 }
 
-@media (min-width: 1000px){
+@media (min-width: 1022px){
     .nav-ul {
         flex-flow: row;
         font-size: 1.2rem;
