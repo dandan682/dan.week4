@@ -90,9 +90,14 @@ footer p, footer ul, footer li{
 }
 
 @media screen and (max-width: 320px){
-    html{
-        font-size: 0.6rem;
+    html {
+        font-size: 0.7rem;
     }
+
+    footer p {
+        font-size: 0.9rem;
+    }
+    
     .logo {
         width: 100%;
     }
@@ -130,6 +135,7 @@ footer p, footer ul, footer li{
         padding-bottom: 1.8rem;
         font-size: 1.2rem;
     }
+
     li {
         margin-left: auto ;
     }
