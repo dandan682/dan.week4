@@ -76,8 +76,6 @@ footer {
     flex-direction: column;
     background-color: rgb(21, 153, 21);
     color: white;
-    text-align: center;
-    margin-top: 1rem;
 }
 
 footer img{
@@ -87,7 +85,7 @@ footer img{
 footer p, footer ul {    
     text-align: center;
     margin:  0;
-    padding: 0.3rem;
+    padding: 0.4rem;
 }
 
 @media screen and (max-width: 320px){
