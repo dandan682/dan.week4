@@ -45,11 +45,11 @@ li {
     color:cornflowerblue;
 }
 
-.items-container{
+.item-container{
     margin: 8%;
 }
 
-.card-container {
+.cards-container {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
