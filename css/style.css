@@ -32,7 +32,8 @@ li {
 }
 
 .logo {
-    width: 100%;
+    width: 70%;
+    margin: auto;
 }
 
 .nav-ul {
@@ -101,13 +102,15 @@ footer p, footer ul, footer li{
     .nav-ul {
         display: flex;
         flex-flow: column;
-        text-align: right;
         width: 100%;
-        padding: 0.7rem;
+        justify-content:center;
+        margin: 0 0.5rem 0 0;
+        padding: 0;
+        text-align: right;
     }
 
     .logo {
-        width: 35%;
+        width: auto;
     }
 
     .card{
@@ -126,12 +129,12 @@ footer p, footer ul, footer li{
 @media screen and (min-width: 1024px){
     .nav-ul {
         flex-flow: row;
+        align-items: flex-end;
+        margin-top: auto;
+        padding-bottom: 1.4rem;
         font-size: 1.2rem;
-        justify-content: flex-end;
-        padding-top: 4.5rem;
-        margin-left: 8rem;
     }
     li {
-        margin:auto ;
+        margin-left: auto ;
     }
 }
