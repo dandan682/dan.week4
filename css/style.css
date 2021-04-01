@@ -73,11 +73,9 @@ li {
 }
 
 footer {
-    display: flex;
+    flex-direction: column;
     background-color: rgb(21, 153, 21);
     color: white;
-    flex-direction: column;
-    align-items: center;
     margin-top: 1rem;
 }
 
@@ -88,14 +86,12 @@ footer img{
 footer p, footer ul, footer li{    
     padding: 0.1rem;
     margin:  0.1rem;
+    text-align: center;
+
 }
 
 @media screen and (max-width: 320px){
     html {
-        font-size: 0.7rem;
-    }
-
-    footer p {
         font-size: 0.9rem;
     }
 
@@ -109,9 +105,9 @@ footer p, footer ul, footer li{
         display: flex;
         flex-flow: column;
         width: 100%;
-        justify-content:center;
         margin: 0 0.5rem 0 0;
         padding: 0;
+        justify-content: center;
         text-align: right;
     }
 
