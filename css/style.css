@@ -1,8 +1,8 @@
 html {
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     color: black;
 }
 
@@ -43,24 +43,23 @@ li {
     color:cornflowerblue;
 }
 
-.section-container {
-    display: flex;
-    flex-flow: column wrap;
-    margin: 4% 10% 4% 10%;
-    }
+.items-container{
+    margin: 8%;
+}
 
 .card-container {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    margin: 1% 8% 1% 8%;
+    margin: 0% 8% 0 8%;
 }
 
 .card {
-    width: 18rem;
+    width: 30rem;
     height: auto;
     box-shadow: 5px 5px 20px rgb(197, 195, 195);
-    margin: 2% 2% 7% 2%;
+    margin: auto;
+    margin-bottom: 1rem;
     text-align: center;
     }
 
@@ -105,6 +104,7 @@ footer p, footer ul, footer li{
         text-align: right;
         width: 100%;
         padding: 0.5rem 1.2rem;
+        padding: 0;
     }
 
     .logo {
@@ -112,15 +112,11 @@ footer p, footer ul, footer li{
     }
 
     .card{
-        width: 12rem;
+        width: 13.4rem;
     }
 
     p {
         font-size: 1.3rem;
-    }
-
-    li {
-        padding-left: 2.5rem;
     }
 
     h2 {
@@ -133,6 +129,9 @@ footer p, footer ul, footer li{
         flex-flow: row;
         font-size: 1.2rem;
         justify-content: flex-end;
-        padding: 5.1rem 1rem 0 0;
+        padding-top: 4.5rem;
+    }
+    li {
+        margin:auto ;
     }
 }
