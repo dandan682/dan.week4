@@ -103,8 +103,7 @@ footer p, footer ul, footer li{
         flex-flow: column;
         text-align: right;
         width: 100%;
-        padding: 0.5rem 1.2rem;
-        padding: 0;
+        padding: 0.7rem;
     }
 
     .logo {
@@ -130,6 +129,7 @@ footer p, footer ul, footer li{
         font-size: 1.2rem;
         justify-content: flex-end;
         padding-top: 4.5rem;
+        margin-left: 8rem;
     }
     li {
         margin:auto ;
