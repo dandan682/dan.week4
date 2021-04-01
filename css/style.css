@@ -29,6 +29,7 @@ a {
 
 li {
     list-style-type: none;
+    margin-left: auto;
 }
 
 .logo {
@@ -97,7 +98,7 @@ footer p, footer ul, footer li{
     footer p {
         font-size: 0.9rem;
     }
-    
+
     .logo {
         width: 100%;
     }
@@ -134,9 +135,5 @@ footer p, footer ul, footer li{
         margin-top: auto;
         padding-bottom: 1.8rem;
         font-size: 1.2rem;
-    }
-
-    li {
-        margin-left: auto ;
     }
 }
