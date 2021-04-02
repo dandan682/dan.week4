@@ -186,7 +186,7 @@ footer p, footer ul {
     .museums-container {
         display: flex;
         width: 25%;
-        margin: 12% 2% auto 2%;
+        margin: 11% 2% auto 2%;
         margin-bottom: auto;
         flex-direction: column;
         order: 2;
