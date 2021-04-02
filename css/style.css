@@ -42,18 +42,18 @@ li {
     color:cornflowerblue;
 }
 
-.container{
+.container {
     flex-direction: column;
 }
 
-.item-container{
+.infodest-container {
     margin: 8%;
 }
 
 .cards-container {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin: 8%;
 }
 
@@ -73,7 +73,7 @@ li {
 }
 
 .museums-container {
-    margin: 0 8% 0 8%;
+    margin: 8%;
 }
 
 .museums-container .h2 {
@@ -82,7 +82,7 @@ li {
         font-weight: 600;
     }
 
-.museum-card{
+.museum-card {
     display: flex;
     height: auto;
     flex-direction: column;
@@ -104,6 +104,10 @@ li {
 .museum-card p {
     text-align: left;
     font-size: 120%;
+}
+
+.item-container {
+    margin: 8%;
 }
 
 hr {
@@ -139,10 +143,6 @@ footer p, footer ul {
 }
 
 @media screen and (min-width: 600px){
-    h2 {
-        font-size: 270%;
-    }
-    
     .nav-ul {
         display: flex;
         flex-flow: column;
@@ -153,32 +153,36 @@ footer p, footer ul {
         font-weight: 600;
     }
 
-    .container {
+    h2 {
+        font-size: 270%;
+    }
+    
+
+    .infodest-museums{ 
         display: flex;
         flex-direction: row;
     }
 
-    .group {
+    .infodest {
+        display: block;
         width: 80%;
     }
 
-    .item-container {
-        margin: 10% 1% 0% 8%;
-    }
-
     .cards-container {
-        margin: 10% 1% 0% 8%;
+        margin: 0 7% 0 7%;
     }
 
     .card{
-        width: 12rem;
+        width: 19rem;
     }
 
     .museums-container {
         display: flex;
         width: 20%;
-        margin: 12% 2% auto 3%;
+        margin: 12% 2% auto 2%;
+        margin-bottom: auto;
         flex-direction: column;
+        order: 2;
     }
 
     .museums-container .h2 {
@@ -190,11 +194,21 @@ footer p, footer ul {
 
     .museum-card h2 {
         font-size: 130%;
-        margin: 0.5rem 0 0 0;
+        padding: 0 0 0 0%;
+
     }
 
     .museum-card p {
             font-size: 110%;
+    }
+
+    .things-accomm {
+        display: block;
+        flex-direction: column;
+    }
+
+    .item-container {
+        margin: 8% 6.4% 8% 6.4%;
     }
 }
 
