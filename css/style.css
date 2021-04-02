@@ -172,10 +172,6 @@ footer p, footer ul {
         margin: 0 7% 0 7%;
     }
 
-    .card{
-        width: 19rem;
-    }
-
     .museums-container {
         display: flex;
         width: 20%;
@@ -219,5 +215,9 @@ footer p, footer ul {
         margin-top: auto;
         padding-bottom: 1.8rem;
         font-size: 120%;
+    }
+
+    .card {
+        width: 19rem;
     }
 }
