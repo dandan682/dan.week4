@@ -168,7 +168,7 @@ footer p, footer ul {
 
     .infodest {
         display: block;
-        width: 75%;
+        width: 72%;
     }
 
     .infodest-container {
@@ -180,13 +180,13 @@ footer p, footer ul {
     }
 
     .card {
-        width: 26rem;
+        width: 31rem;
     }
 
     .museums-container {
         display: flex;
-        width: 25%;
-        margin: 11% 2% auto 2%;
+        width: 28%;
+        margin: 6.5rem 1.5% auto 3.5%;
         margin-bottom: auto;
         flex-direction: column;
         order: 2;
